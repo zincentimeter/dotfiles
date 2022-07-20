@@ -102,5 +102,5 @@ RPROMPT='(%m)'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-. "/home/shinri/.acme.sh/acme.sh.env"
-alias config='/usr/bin/git --git-dir=/home/shinri/.cfg/ --work-tree=/home/shinri'
+. "$HOME/.acme.sh/acme.sh.env"
+alias config='/usr/bin/git --git-dir=$HOME/.conf/ --work-tree=$HOME/'
